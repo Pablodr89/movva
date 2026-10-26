@@ -3,7 +3,7 @@ import gearAnimation from "../public/engranaje.json";
 
 function App() {
   return (
-    <div className="flex flex-col items-center md:justify-center min-h-screen bg-gray-100 px-5 md:px-10">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 px-5 md:px-10">
       <figure className="flex justify-center items-start">
         <img
           src="/logo_amarillo.svg"

@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #ffb600;
+  --color-black: #000000;
+  --gradient-primary: linear-gradient(
+    to bottom,
+    #ffb600 0%,
+    #ffb600 60%,
+    #000000 100%
+  );
+}
+
+.text-primary-gradient {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}

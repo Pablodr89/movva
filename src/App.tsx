@@ -3,8 +3,8 @@ import gearAnimation from "../public/engranaje.json";
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 px-5 md:px-10">
-      <figure className="flex justify-center">
+    <div className="flex flex-col items-center md:justify-center min-h-screen bg-gray-100 px-5 md:px-10">
+      <figure className="flex justify-center items-start">
         <img
           src="/logo_amarillo.svg"
           alt="logo"
@@ -12,7 +12,7 @@ function App() {
         />
       </figure>
 
-      <div className="w-48 h-48 md:w-64 md:h-64 my-6 flex justify-center items-center">
+      <div className="w-48 h-48 md:w-64 md:h-64 flex justify-center items-center">
         <Lottie src={gearAnimation} loop={true} autoplay={true} />
       </div>
 
